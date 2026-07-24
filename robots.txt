@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /thank-you
+
+Host: https://bhflooringmetrodetroit.com
+Sitemap: https://bhflooringmetrodetroit.com/sitemap.xml
