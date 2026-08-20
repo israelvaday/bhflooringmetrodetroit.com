@@ -786,4 +786,64 @@
 <changefreq>monthly</changefreq>
 <priority>0.65</priority>
 </url>
+<!-- Legacy /services/ paths renamed 2026-08-06. These nine URLs are NOT canonical:
+     each serves a 200 stub carrying rel=canonical + meta-refresh to its flooring
+     page. They are listed here only so Google refetches them and processes those
+     canonicals - as of 2026-08-20 GSC still shows the pre-rename content indexed at
+     these paths while all ten renamed pages have zero impressions. lastmod is the
+     stubs' real last-change date (77886e7). Withdraw once the impressions move. -->
+<url>
+<loc>https://bhflooringmetrodetroit.com/services/access-control/</loc>
+<lastmod>2026-08-10T19:44:43.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url>
+<url>
+<loc>https://bhflooringmetrodetroit.com/services/automotive/</loc>
+<lastmod>2026-08-10T19:44:43.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url>
+<url>
+<loc>https://bhflooringmetrodetroit.com/services/commercial/</loc>
+<lastmod>2026-08-10T19:44:43.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url>
+<url>
+<loc>https://bhflooringmetrodetroit.com/services/rekey/</loc>
+<lastmod>2026-08-10T19:44:43.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url>
+<url>
+<loc>https://bhflooringmetrodetroit.com/services/residential/</loc>
+<lastmod>2026-08-10T19:44:43.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url>
+<url>
+<loc>https://bhflooringmetrodetroit.com/services/safes/</loc>
+<lastmod>2026-08-10T19:44:43.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url>
+<url>
+<loc>https://bhflooringmetrodetroit.com/services/smart-locks/</loc>
+<lastmod>2026-08-10T19:44:43.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url>
+<url>
+<loc>https://bhflooringmetrodetroit.com/services/specialty/</loc>
+<lastmod>2026-08-10T19:44:43.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url>
+<url>
+<loc>https://bhflooringmetrodetroit.com/services/storefront/</loc>
+<lastmod>2026-08-10T19:44:43.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url>
 </urlset>
