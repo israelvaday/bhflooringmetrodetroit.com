@@ -119,7 +119,7 @@
 </url>
 <url>
 <loc>https://bhflooringmetrodetroit.com/blog/</loc>
-<lastmod>2026-09-06T00:00:00.000Z</lastmod>
+<lastmod>2026-09-11T00:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.75</priority>
 </url>
@@ -435,6 +435,15 @@
 <image:loc>https://bhflooringmetrodetroit.com/blog/new-construction-flooring-phases-secondary.png</image:loc>
 </image:image>
 <lastmod>2026-04-12T00:00:00.000Z</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://bhflooringmetrodetroit.com/blog/happy-rosh-hashanah-2026/</loc>
+<image:image>
+<image:loc>https://bhflooringmetrodetroit.com/blog/happy-rosh-hashanah-2026-hero.jpg</image:loc>
+</image:image>
+<lastmod>2026-09-11T00:00:00.000Z</lastmod>
 <changefreq>yearly</changefreq>
 <priority>0.7</priority>
 </url>
