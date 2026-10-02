@@ -1,4 +1,4 @@
-/* local-corner.js for bh-flooring, built 2026-10-01 by gotham-ops/local-corner/build.mjs. Do not hand-edit. */
+/* local-corner.js for bh-flooring, built 2026-10-02 by gotham-ops/local-corner/build.mjs. Do not hand-edit. */
 (function () {
   var CONFIG = {"id":"local-corner","mode":"inject","tz":"America/Detroit","weather":{"url":"https://api.weather.gov/gridpoints/DTX/66,34/forecast/hourly","rule":"flooring-humidity","tz":"America/Detroit","place":"Detroit","lat":42.3314,"lon":-83.0458},"html":"<section id=\"local-corner\" class=\"border-t border-ink-800 py-16\" aria-labelledby=\"local-corner-title\"><style>#local-corner a{color:#D9AE4A;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}#local-corner a:hover,#local-corner a:focus-visible{color:#fff}#local-corner h3{margin:2.25rem 0 0;font-family:var(--font-jakarta),var(--font-inter),system-ui,sans-serif;font-size:1.125rem;line-height:1.4;font-weight:700;color:#fff}#local-corner ul{list-style:none;margin:.875rem 0 0;padding:0;display:grid;gap:.75rem}#local-corner li{margin:0;padding:.875rem 1rem;border:1px solid rgb(19 23 28);border-left:3px solid rgb(19 23 28);border-radius:.75rem;background:rgba(11,14,18,.4);overflow-wrap:break-word}#local-corner li strong{color:#fff;font-weight:600}#local-corner li.lc-now{border-left-color:#B8862B;background:rgba(184,134,43,.08)}#local-corner .lc-cite{display:block;margin-top:.375rem;font-size:.75rem;line-height:1.5;color:rgb(144 152 162)}#local-corner .lc-cite a{color:rgb(194 199 205)}#local-corner [data-lc-weather]{padding:1rem 1.25rem;border:1px solid rgb(19 23 28);border-radius:1rem;background:rgba(11,14,18,.6)}#local-corner [data-lc-weather] p{margin:0}#local-corner .lc-live{padding-left:.75rem;border-left:3px solid rgb(144 152 162);color:rgb(229 231 234)}#local-corner .lc-live strong{color:#fff}#local-corner .lc-good{border-left-color:rgb(52 211 153)}#local-corner .lc-caution{border-left-color:#D9AE4A}#local-corner .lc-poor{border-left-color:rgb(225 29 42)}#local-corner [data-lc-weather] .lc-src{margin-top:.5rem;font-size:.75rem;line-height:1.5;color:rgb(144 152 162)}#local-corner .lc-src a{color:rgb(194 199 205)}</style><div class=\"mx-auto max-w-3xl space-y-5 px-4 text-sm text-ink-200 md:px-6 md:text-base\"><header><p class=\"text-xs font-semibold uppercase tracking-wider text-brass-400\">Local guide</p><h2 id=\"local-corner-title\" class=\"mt-2 font-display text-2xl font-bold text-white md:text-3xl\">Floor Care Through the Metro Detroit Year</h2><p class=\"mt-3 text-ink-300\">Michigan weather is hard on floors, so here is what helps Metro Detroit homes through the year.</p></header><div data-lc-weather><p>Metro Detroit swings from humid summers to dry, furnace-heated winters, so keeping indoor humidity steady through the year helps wood floors move less.</p></div><h3>Through the year in Metro Detroit</h3><ul><li data-lc-months=\"12,1,2,3\"><strong>Winter: December to March:</strong> Furnace heat dries the air. The National Wood Flooring Association suggests 30 to 50 percent relative humidity year round, and running a humidifier helps keep winter gaps small in <a href=\"/services/hardwood-flooring/\">hardwood flooring</a>.</li><li data-lc-months=\"4,5\"><strong>Spring: April and May:</strong> Detroit's last spring freeze averages April 22. As the ground thaws, check basement slabs for damp spots before choosing <a href=\"/services/luxury-vinyl-flooring/\">luxury vinyl</a> or any floor below grade.</li><li data-lc-months=\"6,7,8\"><strong>Summer: June to August:</strong> Humid air and heavy storms arrive together. Keep the AC running before new wood is delivered, and if a storm soaks a floor, ask about <a href=\"/services/water-damage-floor-restoration/\">water damage floor restoration</a> soon, before mold can set in.</li><li data-lc-months=\"9,10,11\"><strong>Fall: September to November:</strong> Detroit's first fall freeze averages October 26, so early fall, before the furnace runs every day, is a good time to plan <a href=\"/services/residential-flooring/\">residential flooring</a> work.</li></ul><h3>Good to know locally</h3><ul><li>From June 25 into June 26, 2021, storms brought 3 to 6 inches of rain in 24 hours to most of Metro Detroit, and flooded basements were reported mainly in Wayne and Washtenaw counties. It is one reason basement floors here are usually waterproof <a href=\"/services/luxury-vinyl-flooring/\">luxury vinyl</a> or tile rather than solid wood.<span class=\"lc-cite\">Source: <a href=\"https://www.weather.gov/dtx/MetroDetroitFlooding_PortAustinTornado_June2021\" rel=\"noopener\" target=\"_blank\">Metro Detroit Flooding and Port Austin Tornado, June 26, 2021 (NWS Detroit/Pontiac)</a></span></li><li>Michigan EGLE says the federal asbestos rule requires a thorough inspection before renovating a commercial building or an apartment building with five or more units, whatever the building's age, and vinyl floor tile is among the materials it names. Plan for that step in <a href=\"/services/commercial-flooring/\">commercial flooring</a> schedules.<span class=\"lc-cite\">Source: <a href=\"https://www.michigan.gov/-/media/Project/Websites/egle/Documents/Programs/AQD/asbestos/asbestos-neshap-fact-sheet.pdf?rev=ce3f88d5fe814cf181c3c274bf14006e\" rel=\"noopener\" target=\"_blank\">Understanding the Asbestos NESHAP (Michigan EGLE fact sheet, Rev. 5/2026)</a></span></li></ul><p>Planning a new floor? See how we approach <a href=\"/services/residential-flooring/\">residential flooring</a>, from moisture testing to clean transitions.</p></div></section>","insert":{"before":"section.py-16:not(.border-t) + div + section"}};
 /*
@@ -205,12 +205,12 @@
           level: "good",
           text: "Good window for exterior painting " + dayWord(best[0].t) + " from " + hourLabel(best[0].t) + " to " +
             hourLabel(new Date(Date.parse(best[best.length - 1].t) + 3600000).toISOString()) +
-            " (" + minOf(best, "f") + " to " + maxOf(best, "f") + "°F, low rain chance). Most exterior latex paints need 50°F and up while they dry."
+            " (" + minOf(best, "f") + " to " + maxOf(best, "f") + "°F, low rain chance). Many exterior latex paints need 50°F and up while they dry; check the label, some are rated lower."
         };
       }
       var days = next.filter(function (h) { return h.day; });
       var hi = maxOf(days.length ? days : next, "f");
-      if (hi != null && hi < 50) return { level: "poor", text: "Too cold for most exterior paints today (high near " + hi + "°F). Interior work is the better plan; most exterior latex paints need 50°F and up while they dry." };
+      if (hi != null && hi < 50) return { level: "poor", text: "Too cold for most exterior paints today (high near " + hi + "°F). Interior work is the better plan; many exterior latex paints need 50°F and up while they dry." };
       var dpop = maxOf(days.length ? days : next, "pop");
       if (dpop >= 30) return { level: "poor", text: rainWords(dpop) + " in the daytime hours, so exterior paint may not have time to set. A good day for interior rooms instead." };
       return { level: "caution", text: "Conditions are borderline for exterior paint today (dew or short dry spells). Interior work is the safer choice." };
@@ -232,7 +232,7 @@
       if (low == null) return null;
       if (low <= 32 && frozenPrecip(next)) return { level: "poor", text: "Freezing temperatures with precipitation in the next 24 hours (low near " + low + "°F). Locks and car doors can ice up: use a lock de-icer and never pour hot water into a lock, it refreezes deeper." };
       if (low <= 32) return { level: "caution", text: "Below freezing in the next 24 hours (low near " + low + "°F). A frozen lock needs de-icer and patience, not force; forcing a key is how keys snap." };
-      return { level: "good", text: "No freeze in the next 24 hours (low near " + low + "°F). If a key feels stiff, a little graphite lubricant keeps a lock working through the winter; skip oil, it collects grit." };
+      return { level: "good", text: "No freeze in the next 24 hours (low near " + low + "°F). If a key feels stiff, a dry lubricant such as graphite keeps a lock turning through the winter; oil-based sprays attract grit." };
     },
 
     // Flooring: wood moves with humidity, vinyl plank far less so.
@@ -249,9 +249,11 @@
       var next = hs.slice(0, 12);
       var rh = avgOf(next, "rh");
       var t = avgOf(next, "f");
-      if (rh == null || t == null) return null;
-      if (rh >= 70 || t < 55) return { level: "caution", text: "Slow drying conditions today (" + t + "°F, humidity around " + rh + "%). Allow extra time between coats of joint compound, or use a setting-type compound that cures chemically." };
-      return { level: "good", text: "Good drying conditions today (" + t + "°F, humidity around " + rh + "%). Standard joint compound usually dries between coats in about a day indoors." };
+      if (rh == null) return null;
+      var cold = t != null && t < 50 ? " In unheated spaces such as garages, the cold slows drying further." : "";
+      if (rh >= 70) return { level: "caution", text: "Humid air today (around " + rh + "% relative humidity). Joint compound dries more slowly in damp air, so allow extra time between coats, keep air moving, or use a setting-type compound that cures chemically." + cold };
+      if (rh <= 35) return { level: "good", text: "Dry air today (around " + rh + "% relative humidity), so joint compound dries quickly between coats." + cold };
+      return { level: "good", text: "Moderate humidity today (around " + rh + "%), normal drying time for joint compound between coats." + cold };
     },
 
     // Exterior doors: sealants and caulk want dry weather and roughly 40F and up.
@@ -286,8 +288,9 @@
       var now = hs[0];
       var p = el("p", "lc-live lc-" + res.level);
       var lead = el("strong", null, "Today in " + CONFIG.weather.place + ": ");
+      
       p.appendChild(lead);
-      p.appendChild(document.createTextNode(now.f + "°F, " + (now.sf || "").toLowerCase() + ". " + res.text));
+      p.appendChild(document.createTextNode("now " + now.f + "°F, " + (now.sf || "").toLowerCase() + ". " + res.text));
       var src = el("p", "lc-src");
       src.appendChild(document.createTextNode("Live forecast from the "));
       var a = el("a", null, "National Weather Service");
