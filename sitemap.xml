@@ -119,7 +119,7 @@
 </url>
 <url>
 <loc>https://bhflooringmetrodetroit.com/blog/</loc>
-<lastmod>2026-10-11T00:00:00.000Z</lastmod>
+<lastmod>2026-10-13T00:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.75</priority>
 </url>
@@ -483,6 +483,15 @@
 <image:loc>https://bhflooringmetrodetroit.com/blog/do-flooring-installers-remove-old-flooring-hero.jpg</image:loc>
 </image:image>
 <lastmod>2026-10-11T00:00:00.000Z</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://bhflooringmetrodetroit.com/blog/lvp-flooring-installation-cost/</loc>
+<image:image>
+<image:loc>https://bhflooringmetrodetroit.com/blog/lvp-flooring-installation-cost-hero.jpg</image:loc>
+</image:image>
+<lastmod>2026-10-13T00:00:00.000Z</lastmod>
 <changefreq>yearly</changefreq>
 <priority>0.7</priority>
 </url>
